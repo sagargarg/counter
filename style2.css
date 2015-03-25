@@ -1,0 +1,45 @@
+html {
+	width: 250px;
+	background-color: #E5E5E5;
+}
+
+.title {
+	font-size: 30px;
+	text-align: center;
+	color: #222;
+}
+
+#nowTabs,
+#nowWind {
+	font-size: 45px;
+	color:#444;
+}
+
+.tabs,
+.windows {
+	text-align: center;
+	font-size: 15px;
+}
+
+.red-divider {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	border: 0;
+	height: 2px;
+	background: #e74c3c;
+	background-image: -webkit-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
+	background-image: -moz-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
+	background-image: -ms-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
+	background-image: -o-linear-gradient(left, #E5E5E5, #e74c3c, #E5E5E5); 
+}
+
+.blue-divider {
+	border: 0;
+	height: 1px;
+	margin-bottom: -10px;
+	background: #2f64ea;
+	background-image: -webkit-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+	background-image: -moz-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+	background-image: -ms-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+	background-image: -o-linear-gradient(left, #E5E5E5, #2f64ea, #E5E5E5); 
+}

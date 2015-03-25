@@ -1,25 +1,27 @@
 {
-	"name": "TabCounter2",
+	"name": "Tab Counter",
 	"description": "Tab counting extension that allows you to set goals and shows tab statistics.",
-	"icons": {  "icon1": "icon1.jpg"
+	"icons": {  "icon1": "icon_128.jpg"
 
 	},
 	"permissions": [
-		"tabs",
-		"notifications",
-		"storage"
+		"tabs"
 	],
 
 	"background": {
-			"scripts" : ["background.js"],
-			"persistent": false
+			"scripts" : [
+			"background.js",
+			"popup.jS"
+			]
 		},
 	"browser_action": {
 		"default_popup": "index.html",
-		"default_icon": "icon1.jpg" 
+		"default_icon": "icon_128.png" 
 		},
+	
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 
 	"update_url": "http://clients2.google.com/service/update2/crx",
-	"version": "1.5",
+	"version": "0.0.2",
 	"manifest_version": 2
 }
