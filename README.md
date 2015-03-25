@@ -1,2 +1,2 @@
-# counter
-Chrome Extension that counts the number of tabs
+# Tab Counter
+Chrome Extension that counts the number of tabs and windows you have opened
